@@ -123,5 +123,5 @@ def main():
     hours, minutes = divmod(minutes, 60)
     print("Game Over!")
     print("Passed time= {:02d}:{:02d}:{:02d}".format(int(hours), int(minutes),int(seconds)))
-    
+    x = str(input())
 main()
